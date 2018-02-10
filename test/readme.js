@@ -1,7 +1,5 @@
 'use strict';
 
-/* jshint node: true */
-
 var fs = require('fs');
 var path = require('path');
 var vm = require('vm');
@@ -12,9 +10,9 @@ var format = require('..');
 
 
 //  quote :: String -> String
-var quote = function(s) {
+function quote(s) {
   return "'" + s.replace(/'/g, "\\'") + "'";
-};
+}
 
 
 var extractChunks = R.pipe(
