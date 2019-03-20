@@ -13,6 +13,7 @@
 }(this, (function (rgbcolor,stackblurCanvas) { 'use strict';
 
 	rgbcolor = window.rgbcolor;
+	console.log(rgbcolor);
 	stackblurCanvas = stackblurCanvas && stackblurCanvas.hasOwnProperty('default') ? stackblurCanvas['default'] : stackblurCanvas;
 
 	function createCommonjsModule(fn, module) {
