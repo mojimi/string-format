@@ -12,7 +12,7 @@
 	global.canvg = factory(global.RGBColor,global.StackBlur);
 }(this, (function (rgbcolor,stackblurCanvas) { 'use strict';
 
-	rgbcolor = rgbcolor && rgbcolor.hasOwnProperty('default') ? rgbcolor['default'] : rgbcolor;
+	rgbcolor = window.rgbcolor;
 	stackblurCanvas = stackblurCanvas && stackblurCanvas.hasOwnProperty('default') ? stackblurCanvas['default'] : stackblurCanvas;
 
 	function createCommonjsModule(fn, module) {
