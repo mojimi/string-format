@@ -3,6 +3,7 @@
 	http://www.phpied.com/rgb-color-parser-in-javascript/
 */
 window.rgbcolor = function(color_string) {
+    this.default = true;
     this.ok = false;
     this.alpha = 1.0;
 
